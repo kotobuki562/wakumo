@@ -138,4 +138,13 @@ nav{
 .points-image{
   padding: 40px 30px;
   width: 200px;
+  height: 150px;
+}
+
+@media (max-width: 1050px){
+  .points-text{
+    flex-direction: column;
+    max-width: 100%;
+    padding: 0 30px;
+  }
 }
