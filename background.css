@@ -1,14 +1,13 @@
-h1 {
+.h1-title {
   position: relative;
-  border: solid 2px #ffa91f;
   background: #ffffff;
   line-height: 1.4;
-  padding: 0.4em 0.5em;
-  margin: 2em 0 0.5em;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+  padding: 3% 0;
+  margin: 2em 1rem 0.5em;
+  width: 100%;
 }
 
-h1:after {
+.h1-title:after {
   /*タブ*/
   position: absolute;
   font-family: "Font Awesome 5 Free",'Quicksand','Avenir','Arial',sans-serif;
@@ -33,4 +32,10 @@ h1:after {
   repeating-linear-gradient(-45deg,
   #ffffff, #ffffff 7.5px,
   transparent 0, transparent 15px);
+}
+
+@media (max-width: 1050px){
+  .h1-title{
+    margin: 2em 0rem 0.5em;
+  }
 }

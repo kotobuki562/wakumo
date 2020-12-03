@@ -100,16 +100,23 @@ nav{
 }
 .image-text span{
   color: #ffa91f;
+  font-weight: 900;
+  padding-right: 10px;
+  border-bottom: 3px solid #ffa91f;
 }
 
 /* pointsコンテンツ */
 
 .points{
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 .points-title{
   font-weight: 900;
-  padding-top: 5%;
+  padding: 5%;
   text-align: center;
   font-size: 2.5rem;
   letter-spacing: 3px;
@@ -118,7 +125,7 @@ nav{
 .points-text{
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  width: 100%;
 }
 
 .points-text-title{
@@ -141,10 +148,78 @@ nav{
   height: 150px;
 }
 
+/* howtocontents */
+
+.how-to-contents{
+  background-color: #ffa91f;
+  padding: 5% 5%;
+  text-align: center;
+}
+
+.how-to-contents-title{
+  color: #ffffff;
+  padding-bottom: 5%;
+}
+
+.how-to-images{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.how-to-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #ffffff;
+  padding: 20px 20px 0;
+  border-radius: 20px;
+  min-width: 300px;
+}
+
+.how-to-image span{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #ffa91f;
+  background-color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  letter-spacing: 3px;
+}
+
+.how-to-image h1{
+  font-size: 1.5rem;
+  padding: 10px 0 10px;
+}
+.how-to-image p{
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 10px 0 10px;
+  letter-spacing: 1px;
+}
+
+.how-to-image img{
+  width: 250px;
+}
+
 @media (max-width: 1050px){
   .points-text{
     flex-direction: column;
     max-width: 100%;
-    padding: 0 30px;
+  }
+
+  .h1-title{
+    min-width: 300px;
+  }
+
+}
+@media (max-width: 1180px){
+    .how-to-images{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .how-to-image{
+    margin: 5% 0;
   }
 }
