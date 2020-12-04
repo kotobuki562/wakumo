@@ -202,23 +202,35 @@ nav{
   width: 250px;
 }
 
-.A{
-  display: none;
-  animation: bounce 2s ease-in-out infinite;
+.q-and-a{
+  padding: 5% 10%;
   text-align: center;
 }
-
-@keyframes bounce {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
+.card{
+  margin: 10px 0;
+  padding: 10px 0;
+  background-color: #ffedd0;
 }
+.question{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.question-title span{
+  padding: 0 30px;
+}
+.question button{
+  padding-right: 30px;
+}
+.answer{
+  padding: 10px 0;
+  display: none;
+}
+.answer-title span{
+  padding: 0 30px;
+}
+
 
 @media (max-width: 1050px){
   .points-text{
