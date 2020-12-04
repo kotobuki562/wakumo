@@ -2,10 +2,10 @@ function nav() {
   const button = document.getElementById("button");
   button.addEventListener("click", (e) => {
     const A = document.getElementById("A");
-    if (A.getAttribute("style") == "display:block;") {
+    if (A.getAttribute("style") == "display:block; display: flex;") {
       A.removeAttribute("style", "display:block;");
     } else {
-      A.setAttribute("style", "display:block;");
+      A.setAttribute("style", "display:block; display: flex;");
     }
     e.preventDefault();
   });
