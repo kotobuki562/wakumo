@@ -202,9 +202,14 @@ nav{
   width: 250px;
 }
 
+/* よくある質問 */
+
 .q-and-a{
   padding: 5% 10%;
   text-align: center;
+}
+.cards{
+  padding: 5% 0;
 }
 .card{
   margin: 10px 0;
@@ -227,8 +232,22 @@ nav{
   padding: 10px 0;
   display: none;
 }
-.answer-title span{
+
+.answer span{
   padding: 0 30px;
+}
+.answer-title{
+  padding-right:30px;
+  text-align: start;
+}
+
+.news{
+  display: inline-block;
+  background-color: #ffa91f;
+  padding: 10px 60px;
+  border-radius: 30px;
+  font-size: 0.6rem;
+  color: #ffffff;
 }
 
 
