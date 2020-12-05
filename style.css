@@ -241,13 +241,33 @@ nav{
   text-align: start;
 }
 
-.news{
+.q-and-a-pages{
   display: inline-block;
   background-color: #ffa91f;
   padding: 10px 60px;
   border-radius: 30px;
   font-size: 0.6rem;
   color: #ffffff;
+}
+
+/* ニュースお知らせ一覧 */
+.news{
+  background-color: #ffedd0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0;
+}
+.news-content{
+  border-bottom: 3px solid #ffa91f;
+}
+.news-title{
+  border-bottom: 1px solid #ffa91f;
+  padding: 30px 300px;
+}
+.news-pages{
+  margin-top: 5%;
 }
 
 
